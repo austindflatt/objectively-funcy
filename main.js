@@ -8,6 +8,10 @@ function getLastName (person) {
   return person.lastName;
 }
 
+function getFullName (person) {
+  return person.firstName + " " + person.lastName;
+}
+
 
 
 

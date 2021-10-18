@@ -27,6 +27,13 @@ function giveBirthday (person) {
   person.age++
 }
 
+function marry (person, person2married) {
+    person.married = true;
+    person2married.married = true;
+    person.spouseName = person2married.firstName + " " + person2married.lastName;
+    person2married.spouseName = person.firstName + " " + person.lastName;
+}
+
 
 
 

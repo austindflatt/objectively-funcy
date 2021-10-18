@@ -20,6 +20,13 @@ function setAge (person, person2age) {
   return person.age = person2age;
 }
 
+function giveBirthday (person) {
+  if (person.age === undefined) {
+    person.age = 0;
+  }
+  person.age++
+}
+
 
 
 

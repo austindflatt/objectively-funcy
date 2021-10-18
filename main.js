@@ -12,6 +12,14 @@ function getFullName (person) {
   return person.firstName + " " + person.lastName;
 }
 
+function setFirstName (person, person2firstName) {
+  return person.firstName = person2firstName;
+}
+
+function setAge (person, person2age) {
+  return person.age = person2age;
+}
+
 
 
 

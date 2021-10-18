@@ -1,5 +1,12 @@
 // Your code here.
 
+function getFirstName (person) {
+  return person.firstName;
+}
+
+function getLastName (person) {
+  return person.lastName;
+}
 
 
 

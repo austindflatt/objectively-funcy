@@ -34,7 +34,12 @@ function marry (person, person2married) {
     person2married.spouseName = person.firstName + " " + person.lastName;
 }
 
-
+function divorce (person, person2divorced) {
+  person.married = false;
+  person2divorced.married = false;
+  delete person.spouseName;
+  delete person2divorced.spouseName;
+}
 
 
 // Our code here. Don't touch!
